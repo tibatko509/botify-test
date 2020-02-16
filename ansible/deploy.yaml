@@ -1,0 +1,11 @@
+---
+- name: "Run flaskr application on docker"
+  hosts: localhost
+  tasks:
+    - name: "Execute the installation of Docker daemon"
+      local_action: script ../script_docker.sh
+
+    - name: Create and launch the application container
+      shell:
+        chdir: ../
+        cmd: ./script_application.sh
