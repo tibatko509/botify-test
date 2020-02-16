@@ -7,6 +7,7 @@ Potential improvements:
 By Generating a valid certificate and a key for the SSL connection. Refer them and debug=True in app.run() locate in the application flaskr.py
 
 - which points would you improve on the security aspects? on other aspects?
+
 To improve the security we can choose a server like Nginx or Apache because both can handle setting up HTTPS. That way we will not directly define the ssl connection in the application.
 
 - how do you plan to backup the application?
