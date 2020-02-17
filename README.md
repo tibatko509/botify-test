@@ -37,4 +37,4 @@ Step to install and launch the application in a container
 	- launch docker command to start the application in a docker container
 	- expose the application on port 8080
 
-
+Open the link in your browser : http://localhost:8080
